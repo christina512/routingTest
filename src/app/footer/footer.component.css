@@ -1,0 +1,10 @@
+i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white ;
+    text-align: center;
+    margin: 4px;
+    border-radius: 100%;
+    padding: 10px;
+}

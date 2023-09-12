@@ -1,0 +1,12 @@
+.label-top{
+    top: 40px !important;
+}
+label{
+    transition: all 0.7s;
+}
+.btn:hover{
+    background-color: #1abc9c;
+    color: white;
+}
+
+

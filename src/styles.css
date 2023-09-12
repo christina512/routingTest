@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --mainColor: #1abc9c;
+    --secondaryColor:#2c3e50;
+
+    --darkerColor:#1a252f;
+}
+
+.mainBg{
+    background-color: var(--mainColor);
+}
+.secondaryBg{
+    background-color: var(--secondaryColor);
+}
+.secondaryColor{
+    color: var(--secondaryColor);
+}
+.mainColor{
+    color: var(--mainColor);
+}
+
+.darkerBg{
+    background-color: var(--darkerColor);
+}
+.line{
+    width: 80px;
+    height: 4px;
+    background-color: white;
+}
+.line-dark{
+    width: 80px;
+    height: 4px;
+}
+section{
+    margin-top: 80px;
+    min-height: calc(100vh - 100px);
+}

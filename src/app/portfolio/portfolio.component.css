@@ -1,0 +1,13 @@
+.modal img{
+width: 600px;
+}
+
+.overlay{
+    cursor: pointer;
+    transition: all 0.7s;
+    opacity: 0;
+    background-color: #1abc9cc2;
+}
+.col-md-4:hover .overlay{
+    opacity: 1;
+}
